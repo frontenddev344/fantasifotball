@@ -94,7 +94,7 @@ input.pages-newsletter-input {
   height: 60px;
 }
 .pages-cards-content h3 {
-  font-size: 26px;
+  font-size: 24px;
 }
 .pages-cards-content p {
   font-size: 15px;
@@ -250,9 +250,6 @@ input.pages-newsletter-input {
 .pages-icons img {
   width: 60px;
   height: 60px;
-}
-.pages-cards-content h3 {
-  font-size: 24px;
 }
 .pages-cards-content p {
   font-size: 14px;
