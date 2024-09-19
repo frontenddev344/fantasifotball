@@ -58,12 +58,19 @@ h2.section-heading {
   margin-bottom: 35px;
   min-height: 180px;
 }
+.accordion-button {
+  font-size: 15px;
+}
+.accordion-body {
+  font-size: 15px;
+}
 .disclaimer-wrapper h3 {
   font-size: 28px;
 }
 .disclaimer-wrapper p {
   font-size: 15px;
 }
+
 
 
 
@@ -179,7 +186,13 @@ h2.section-heading {
     text-align: left;
 }
 .footer-items h3 {
-  font-size: 23px;
+  font-size: 20px;
+}
+.accordion-button {
+  font-size: 14px;
+}
+.accordion-body {
+  font-size: 14px;
 }
 
 
@@ -274,6 +287,23 @@ h2.section-heading {
 
 .footer-items h3 {
   font-size: 24px;
+}
+.logo-bottom {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.lg-btm a img {
+
+  max-width: 250px;
+}
+.social-icons {
+  justify-content: flex-start;
+}
+.accordion-button {
+  font-size: 13px;
+}
+.accordion-body {
+  font-size: 13px;
 }
 
 
