@@ -321,6 +321,8 @@ h2.section-heading {
     border-radius: 10px;
     margin-bottom: 30px;
     transition: 0.4s all ease-in-out;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 .home-blog-cards:hover{
     transform: translateY(3px);
