@@ -154,9 +154,15 @@ colors
     text-transform: capitalize;
     line-height: normal;
     font-weight: 600;
-    position: relative;
     color: #00fadf;
+    transition: 0.5s all ease-in-out;
 }
+.main-navbar ul li a:hover{
+    border-bottom: 1px solid #00fadf; 
+}
+
+
+
 
 .how-play-btn {
     color: #000;
@@ -689,6 +695,9 @@ background-color: #000;
     top: 100%;
     width: 0%;
 }
+.footer-items ul li a:hover:after {
+    width: 100%;
+}
 
 .footer .footer-items ul li a:hover {
     transform: translateX(3px);
@@ -700,9 +709,7 @@ background-color: #000;
 }
 
 
-.footer-items ul li a:hover:after {
-    width: 100%;
-}
+
 
 
 
