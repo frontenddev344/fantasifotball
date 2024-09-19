@@ -488,13 +488,13 @@ input.pages-newsletter-input {
     box-shadow: inset 0px 0px 10px 3px #00fadf;
 }
 
-.pages-newsletter-wrapper h3 {
-    font-size: 30px;
-    max-width: 900px;
-    margin: 0 auto 20px auto;
-    line-height: normal;
-    font-weight: 700;
+.pages-newsletter-submit-button {
     color: #fff;
+    margin-left: 5px;
+    border-radius: 0 25px 25px 0;
+    box-shadow: inset 0px 0px 10px 3px #fea036;
+    backdrop-filter: blur(60px);
+    background-color: transparent;
 }
 
 /* Home Page newsletter CSS End */
