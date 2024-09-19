@@ -825,13 +825,26 @@ transform: scale(1.1);
 }
 .pages-icons{
     margin-bottom: 20px;
-}
 
+}
 .pages-icons img {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    animation: beat 1.7s linear infinite;
 }
+@keyframes beat {
+
+    0%,
+    100% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
 .pages-cards-content h3 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -844,7 +857,19 @@ transform: scale(1.1);
 .down-arrow img {
     height: 80px;
     width: 80px;
+    animation: down 1s linear infinite;
 }
+@keyframes down {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(3px);
+    }
+  }
 
 
 
