@@ -1,26 +1,85 @@
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+  .banner-text h1 {
+    font-size: 60px;
+}
+.banner-image {
+  height: 540px;
+}
+.banner-text h3 {
+  font-size: 23px;
+  max-width: 860px;
+}
+.about-us-cards h3 {
+  font-size: 19px;
+}
+.about-cards-icon img {
+  height: 40px;
+  width: 40px;
+}
+.about-us-cards {
+  min-height: 195px;
+}
+
+
+
+}
 
 @media screen and (max-width:991px) {
   .logo img {
     max-width: 240px;
   }
+  .banner-text h1 {
+    font-size: 55px;
+}
+.banner-text h3 {
+  font-size: 23px;
+  max-width: 710px;
+}
+.banner-image {
+  height: 480px;
+}
+.pages-intro-text-wrapper p {
+  font-size: 15px;
+}
+.home-page-blog-text p {
+  font-size: 15px;
+}
+h2.section-heading {
+  font-size: 34px;
+}
+.why-choose-us-cards p {
+  font-size: 15px;
+}
+.about-us-cards h3 {
+  font-size: 22px;
+}
+.about-us-cards {
+  width: 47%;
+  margin-bottom: 35px;
+  min-height: 180px;
+}
+.disclaimer-wrapper h3 {
+  font-size: 28px;
+}
+.disclaimer-wrapper p {
+  font-size: 15px;
+}
 
 
 
 
 
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 14px;
+  }
 
-      /* Cookies CSS Start */
-      .info p {
-        font-size: 14px;
-    }
+  .button {
+    width: calc(55% / 2 - 10px);
+    font-size: 14px;
+  }
 
-    .button {
-        width: calc(55% / 2 - 10px);
-        font-size: 14px;
-    }
-
-    /* Cookies CSS End */
+  /* Cookies CSS End */
 }
 
 
@@ -35,29 +94,29 @@
     width: 100%;
     padding: 50px;
     background-color: #000;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     transition: all 0.3s linear;
     z-index: 100;
     color: #fff;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-}
+  }
 
-.menuToggle .main-navbar {
-    transform: translateY(0);
+  .menuToggle .main-navbar {
+    transform: translateX(0);
     justify-content: flex-start;
-}
+  }
 
-.main-navbar ul {
+  .main-navbar ul {
     flex-direction: column;
-}
+  }
 
-.menu-icon {
+  .menu-icon {
     display: block;
-}
+  }
 
-.close-icon {
+  .close-icon {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -65,57 +124,244 @@
     color: #fff;
     text-align: end;
     z-index: 55;
+  }
+
+  a.mobile-hide {
+    display: none;
+  }
+
+  a.desktop-hide {
+    display: block !important;
+    background: none;
+  }
+  .banner-image {
+    height: 430px;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+  }
+
+  .banner-text h3 {
+    font-size: 20px;
+    padding: 0 10px;
+    max-width: 450px;
+  }
+  .home-page-blog-text h3 {
+    font-size: 19px;
+  }
+  .home-page-blog-image {
+    width: 100%;
+    height: 290px;
+  }
+  .home-page-blog-text{
+    width: 100%;
+    padding:15px 5px;
+  }
+  .home-page-blog-text h3 {
+    font-size: 20px;
+  }
+  h2.section-heading {
+    font-size: 30px;
+  }
+  .about-us-cards h3 {
+    font-size: 20px;
+  }
+  .about-us-cards {
+    width: 47%;
+    margin-bottom: 35px;
+    min-height: 180px;
+  }
+  .disclaimer-wrapper h3 {
+    font-size: 25px;
+  }
+  .footer-items h3 {
+    text-align: left;
 }
-a.mobile-hide {
-  display: none;
-}
-a.desktop-hide {
-  display: block !important;
-
+.footer-items h3 {
+  font-size: 23px;
 }
 
 
 
+  /* Cookies CSS Start */
+  .wrapper {
+    padding: 20px 10px;
+  }
 
-      /* Cookies CSS Start */
-      .wrapper {
-        padding: 20px 10px;
-    }
+  .info p {
+    font-size: 13px;
+  }
 
-    .info p {
-        font-size: 13px;
-    }
+  .button {
+    font-size: 13px;
+    padding: 6px;
+  }
 
-    .button {
-        font-size: 13px;
-        padding: 6px;
-    }
-
-    /* Cookies CSS End */
+  /* Cookies CSS End */
 }
 
 
 
 @media screen and (max-width:575px) {
+  .logo img {
+    max-width: 230px;
+  }
+
+  .banner-image {
+    height: 380px;
+  }
+
+  .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .banner-text h3 {
+    font-size: 20px;
+    padding: 0 10px;
+    max-width: 470px;
+  }
+  .pages-intro-text-wrapper p {
+    font-size: 14px;
+}
+.home-page-blog-image {
+  width: 100%;
+  height: 250px;
+}
+.home-page-blog-text{
+  width: 100%;
+  padding:15px 5px;
+}
+.home-page-blog-text h3 {
+  font-size: 18px;
+}
+.home-page-blog-text p {
+  font-size: 14px;
+}
+h2.section-heading {
+  font-size: 26px;
+}
+
+.why-choose-us-cards p {
+  font-size: 14px;
+}
+.about-us-cards h3 {
+  font-size: 16px;
+}
+.about-us-cards {
+  width: 47%;
+  margin-bottom: 35px;
+}
+.about-cards-icon img {
+  height: 40px;
+  width: 40px;
+}
+.disclaimer-wrapper h3 {
+  font-size: 22px;
+}
+.disclaimer-wrapper {
+  padding: 0px 5px;
+}
+.disclaimer-wrapper p {
+  font-size: 14px;
+}
+.footer-items {
+  width: 50%;
+}
+.footer .footer-items ul li a {
+  font-size: 16px;
+}
+
+.footer-items h3 {
+  font-size: 24px;
+}
 
 
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 13px;
+  }
 
+  .button {
+    width: calc(70% / 2 - 10px);
+    font-size: 13px;
+  }
 
-      /* Cookies CSS Start */
-      .info p {
-        font-size: 13px;
-    }
-
-    .button {
-        width: calc(70% / 2 - 10px);
-        font-size: 13px;
-    }
-
-    /* Cookies CSS End */
+  /* Cookies CSS End */
 }
 
 @media screen and (max-width:480px) {
+  .logo img {
+    max-width: 190px;
+  }
 
+  .menu-icon {
+    font-size: 22px;
+  }
+
+  .banner-image {
+    height: 320px;
+  }
+
+  .banner-text h1 {
+    font-size: 35px;
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+    padding: 0 10px;
+    max-width: 400px;
+  }
+  .home-page-blog-image {
+    height: 200px;
+  }
+  .home-page-blog-text h3 {
+    font-size: 17px;
+  }
+  .butn {
+    padding: 10px 30px;
+    font-size: 14px;
+}
+h2.section-heading {
+  font-size: 22px;
+}
+.why-choose-us-cards h3 {
+  font-size: 20px;
+}
+.about-us-cards {
+  width: 100%;
+}
+
+.about-us-cards h3 {
+  font-size: 16px;
+}
+.disclaimer-wrapper h3 {
+  font-size: 20px;
+}
+.footer-items {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-items:last-child {
+  margin-bottom: 0;
+}
+
+.footer-items h3 {
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 13px;
+}
+
+.footer .footer-items ul li a {
+  font-size: 15px;
+}
+.lg-btm a img {
+  max-width: 220px;
+}
 
 
   /* Cookies CSS Start */
