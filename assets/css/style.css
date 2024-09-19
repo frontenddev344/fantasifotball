@@ -792,16 +792,20 @@ background-color: #000;
     align-items: center;
     flex-wrap: wrap;
     padding:30px;
-    box-shadow: rgba(0 250 223) 0px 10px 15px -20px, rgba(0 250 223) 0px 30px 60px -30px, rgba(0 250 223) 0px -2px 6px 0px inset;
+    box-shadow: rgba(0 250 223) 0px 7px 10px 7px, rgba(0 250 223) 0px 7px 10px 10px, rgba(0 250 223) 0px -2px 6px 0px inset;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.4s all ease-in-out;
 }
 /* .pages-cards:nth-child(odd){
     flex-direction: row-reverse;
 } */
-
+.pages-cards:hover{
+    transform: translateY(-5px);
+    box-shadow: #fd5f03 0px 7px 10px 7px, #fd5f03 0px 7px 10px 10px,  #fd5f03 0px -2px 6px 0px inset;
+}
 
 .pages-cards-image {
     width: 50%;
