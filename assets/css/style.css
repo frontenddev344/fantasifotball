@@ -786,6 +786,9 @@ background-color: #000;
 }
 
 /* Social Icons CSS End */
+.pages-cards-wrapper {
+    padding: 15px;
+}
 
 .pages-cards {
     display: flex;
