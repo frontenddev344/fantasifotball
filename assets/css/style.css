@@ -73,6 +73,7 @@ img {
     padding: 0 15px;
 }
 
+
 .py-5 {
     padding: 50px 0;
 }
@@ -784,6 +785,72 @@ background-color: #000;
 }
 
 /* Social Icons CSS End */
+
+.pages-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px;
+    box-shadow: rgba(0 250 223) 0px 10px 15px -20px, rgba(0 250 223) 0px 30px 60px -30px, rgba(0 250 223) 0px -2px 6px 0px inset;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* .pages-cards:nth-child(odd){
+    flex-direction: row-reverse;
+} */
+
+
+.pages-cards-image {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.pages-cards-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s all ease-in-out;
+}
+.pages-cards:hover .pages-cards-image img {
+transform: scale(1.1);
+}
+
+.pages-cards-content{
+    width: 50%;
+    padding: 20px;
+}
+.pages-icons{
+    margin-bottom: 20px;
+}
+
+.pages-icons img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.pages-cards-content h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00fadf;
+}
+
+.down-arrow{
+    padding: 40px 0;
+}
+.down-arrow img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+
 
 
 /* Other Pages CSS Start */
