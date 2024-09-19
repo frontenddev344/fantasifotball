@@ -1,30 +1,132 @@
-@media screen and (max-width:1200px) {
-    
-}
+@media screen and (max-width:1200px) {}
 
 @media screen and (max-width:991px) {
- 
+  .logo img {
+    max-width: 240px;
+  }
 
+
+
+
+
+
+      /* Cookies CSS Start */
+      .info p {
+        font-size: 14px;
+    }
+
+    .button {
+        width: calc(55% / 2 - 10px);
+        font-size: 14px;
+    }
+
+    /* Cookies CSS End */
 }
 
 
 
 
 @media screen and (max-width:767px) {
-     
+  .main-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    background-color: #000;
+    transform: translateY(-100%);
+    transition: all 0.3s linear;
+    z-index: 100;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
 
-    
+.menuToggle .main-navbar {
+    transform: translateY(0);
+    justify-content: flex-start;
+}
+
+.main-navbar ul {
+    flex-direction: column;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    color: #fff;
+    text-align: end;
+    z-index: 55;
+}
+a.mobile-hide {
+  display: none;
+}
+
+
+
+
+      /* Cookies CSS Start */
+      .wrapper {
+        padding: 20px 10px;
     }
 
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    /* Cookies CSS End */
+}
 
 
-@media screen and (max-width:575px) {    
 
-  }
+@media screen and (max-width:575px) {
+
+
+
+
+      /* Cookies CSS Start */
+      .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        width: calc(70% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
+}
 
 @media screen and (max-width:480px) {
-  
-    
 
 
+
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 12px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .button {
+    width: calc(100% / 2 - 10px);
+    font-size: 13px;
+  }
+
+  /* Cookies CSS End */
 }
