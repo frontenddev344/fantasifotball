@@ -263,24 +263,21 @@ h2.section-heading {
     display: block;
     font-weight: 600;
     text-transform: capitalize;
-    transform: translateX(100%);
     overflow: hidden;
-    opacity: 0;
 }
 
 .banner-text h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     display: block;
     font-weight: 600;
     text-transform: capitalize;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     line-height: 1.5;
     margin-top: 15px;
-    transform: translateX(-100%);
     overflow: hidden;
-    opacity: 0;
+
 }
 
 
@@ -860,7 +857,15 @@ transform: scale(1.1);
     }
   }
 
-
+  /* Blog Pages CSS Start */
+  .blog-banner-text h3 {
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;    
+}
+.blog-banner-image {
+height: 490px;  
+}
 
 
 
