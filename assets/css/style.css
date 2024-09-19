@@ -124,6 +124,7 @@ colors
     margin: 0 auto;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
+    background-color: #000;
 }
 
 .main-navbar ul {
@@ -201,7 +202,9 @@ a.desktop-hide {
 .how-play-btn {
     background: linear-gradient(93.12deg, #00fadf 5.88%,#86ffac 94.33%);
     padding:15px 30px;
-
+}
+.how-play-btn:hover {
+    box-shadow: #86ffac  0px 7px 15px 0px, #00fadf 0px 0px 0px 1px;
 }
 
 /* Header CSS End */
@@ -320,149 +323,63 @@ h2.section-heading {
 
 /* Home Page Intro Text CSS End */
 
-/* Home Page Category Cards CSS Start */
-.home-page-category-cards-section {
-    background-image: url("../images/category-cards-bg.jpg");
-    overflow: hidden;
-}
-
-.home-page-category-cards-wrapper {
+.home-blog-cards {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.home-page-category-cards {
-    height: 400px;
-    position: relative;
-    transition: 0.4s all ease-in-out;
-    width: 49%;
-    box-shadow: 0px 0px 10px 6px #fa009f;
-}
-
-.home-page-category-cards:hover {
-    transform: translateY(5px);
-    box-shadow: 0px 0px 10px 6px #fea036;
-}
-
-.home-page-category-cards-image {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    object-position: 0% 0%;
-}
-
-.home-page-category-cards-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: 0.4s all ease-in-out;
-}
-
-.home-page-category-cards:hover .home-page-category-cards-image img {
-    transform: scale(1.1);
-}
-
-.home-page-category-cards:hover .home-page-cards-image img {
-    transform: scale(1.1);
-}
-
-.home-page-category-cards-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0 0 0/50%);
-    background-blend-mode: multiply;
-    transition: 0.5s all ease-in-out;
-}
-
-.home-page-category-cards-content h3 {
-    font-size: 30px;
-}
-
-.home-page-category-cards-content a {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-}
-
-/* Home Page Category Cards CSS End */
-
-
-/* How We Compare CSS Start */
-
-.how-we-compare-section {
-    background-image: url("../images/how-we-compare-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.how-we-compare-cards-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-.how-we-compare-cards {
+    box-shadow: #00fadf 0px 10px 15px 0px, #86ffac 0px 0px 0px 1px;
     padding: 20px;
-    background: #330662;
-    box-shadow: inset 0px 0px 10px #00a2ff;
-    transition: all .5s ease-in;
     border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.4s all ease-in-out;
+}
+.home-blog-cards:hover{
+    transform: translateY(3px);
+}
+.home-page-blog-image {
+    width: 50%;
+    height: 350px;
     overflow: hidden;
-    min-height: 320px;
-    width: 32%;
-    border-radius: 10px;
-    display: block;
-    transition: all .3s ease-out;
 }
-
-.how-we-compare-cards:hover {
-    background-position: 0 0;
-    background-position: left bottom;
-    box-shadow: inset 0px 0px 10px 7px #fea036;
-    color: #fff;
-
+.home-page-blog-image a{
+    height: 100%;
+    width: 100%;
 }
-
-
-.how-we-compare-cards-wrapper>p {
-    color: #000;
-    max-width: 800px;
-    margin: 0 auto;
-    font-weight: 500;
-}
-
-.how-we-compare-icons img {
-    height: 70px;
-    width: 70px;
+.home-page-blog-image img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
+    transition: 0.4s all ease-in-out;
+}
+.home-blog-cards:hover .home-page-blog-image img{
+transform: scale(1.05);
 }
 
-.how-we-compare-content h4 {
-    color: #fa009f;
-    padding: 20px 0;
+.home-page-blog-text{
+    padding: 20px;
+}
+.home-page-blog-text h3 {
+    color: #fff;
     font-size: 20px;
 }
-
-.how-we-compare-content p {
+.home-page-blog-text p {
     color: #fff;
 }
+.blog-btn {
+    border: 1px solid #fff;
+    margin-top: 15px;
+    color: #000;
+    background: linear-gradient(93.12deg, #00fadf 5.88%,#86ffac 94.33%);
+    padding:15px 30px;
+    border-radius: 10px;
+}
+.blog-btn:hover {
+    box-shadow: #86ffac  0px 7px 15px 0px, #00fadf 0px 0px 0px 1px;
+}
 
-/* How We Compare CSS Start */
+
+
+
 
 
 
@@ -539,91 +456,8 @@ input.pages-newsletter-input {
 /* Home Page newsletter CSS End */
 
 
-/* Home Page Blog Cards CSS Start */
-.pages-blog-cards-section {
-    background-image: url("../images/blog-cards-section-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.pages-blog-cards-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.blog-cards {
-    width: 31%;
-    position: relative;
-    transition: 0.3s all ease-out;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0px 0px 7px 4px #fa009f;
-}
-
-.blog-cards:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 0px 7px 4px #fea036;
-}
-
-.blog-cards-image {
-    overflow: hidden;
-    width: 100%;
-    height: 500px;
-}
-
-.blog-cards-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: 0.4s all ease-in-out;
-}
-
-.blog-cards:hover .blog-cards-image img {
-    transform: scale(1.05);
-}
-
-.blog-cards-text {
-    position: absolute;
-    bottom: 0px;
-    background-color: #330662;
-    color: #fff;
-    width: 100%;
-    min-height: 160px;
-}
-
-.blog-cards-text h4 {
-    padding: 10px;
-}
-
-.blof-cards-btn {
-    padding: 20px 10px;
-}
-
-.blog-btn {
-    box-shadow: inset 0px 0px 10px 1px #fea036;
-    color: #fff;
-    border-radius: 10px;
-    padding: 13px 40px;
-    display: inline-flex;
-    align-items: center;
-}
-
-.blog-btn:hover {
-    box-shadow: inset 0px 0px 10px 1px #00a2ff;
-}
-
-a.butn.blog-btn img {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-    object-fit: cover;
-}
-
-/* Home Page Blog Cards CSS Start */
 
 /* Home Page Accordion CSS Start */
 .accordion {
