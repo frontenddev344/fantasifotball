@@ -130,7 +130,9 @@ img {
     justify-content: center;
     align-items: center;
 }
-
+.desktop-hide{
+    display: none;
+}
 
 .desktop-menu {
     display: flex;
