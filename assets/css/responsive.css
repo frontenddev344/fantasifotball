@@ -69,6 +69,10 @@
 a.mobile-hide {
   display: none;
 }
+a.desktop-hide {
+  display: block !important;
+
+}
 
 
 

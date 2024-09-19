@@ -146,7 +146,7 @@ colors
 
 .main-navbar ul li a
  {
-    padding: 10px;
+    padding:0 10px;
     display: inline-block;
     text-align: center;
     cursor: pointer;
@@ -157,7 +157,6 @@ colors
     color: #00fadf;
     transition: 0.5s all ease-in-out;
     border-bottom: solid 1px transparent; 
-
 }
 .main-navbar ul li a:after {
     display:block;
@@ -172,7 +171,6 @@ colors
  { 
     transform: scaleX(1); 
 }
-
 
 
 
@@ -204,9 +202,7 @@ colors
     z-index: 60;
 }
 
-a.desktop-hide {
-    display: none !important;
-}
+
 
 .butn {
     display: inline-block;
@@ -217,13 +213,16 @@ a.desktop-hide {
     border: 1px solid transparent;
     transition: 0.3s all ease-in-out;
     line-height: 20px;
-}
+    }
+ .desktop-hide {
+     display: none !important; 
+} 
 
-.how-play-btn {
+.how-play-btn  {
     background: linear-gradient(93.12deg, #00fadf 5.88%,#86ffac 94.33%);
     padding:15px 30px;
 }
-.how-play-btn:hover {
+.how-play-btn:hover  {
     box-shadow: #86ffac  0px 7px 15px 0px, #00fadf 0px 0px 0px 1px;
 }
 
