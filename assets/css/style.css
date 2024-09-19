@@ -263,7 +263,6 @@ h2.section-heading {
     display: block;
     font-weight: 600;
     text-transform: capitalize;
-    animation: slideright 1.5s ease-in-out forwards;
     transform: translateX(100%);
     overflow: hidden;
     opacity: 0;
@@ -280,24 +279,10 @@ h2.section-heading {
     line-height: 1.5;
     margin-top: 15px;
     transform: translateX(-100%);
-    animation: slideright 1.5s ease-in-out forwards;
     overflow: hidden;
     opacity: 0;
 }
 
-@keyframes slideleft {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideright {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /* Banner Section  CSS End */
 
