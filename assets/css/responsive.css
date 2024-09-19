@@ -70,6 +70,18 @@ h2.section-heading {
 .disclaimer-wrapper p {
   font-size: 15px;
 }
+.pages-newsletter-wrapper h3 {
+  max-width: 655px;
+}
+
+input.pages-newsletter-input {
+  width: 45%;
+  padding: 12px 25px;
+}
+
+.pages-newsletter-submit-button {
+  padding: 12px 25px;
+}
 
 
 
@@ -194,6 +206,20 @@ h2.section-heading {
 .accordion-body {
   font-size: 14px;
 }
+.pages-newsletter-wrapper h3 {
+  max-width: 510px;
+}
+
+input.pages-newsletter-input {
+  width: 45%;
+  font-size: 15px;
+  padding: 11px 25px;
+}
+
+.pages-newsletter-submit-button {
+  padding: 11px 25px;
+  font-size: 15px;
+}
 
 
 
@@ -305,6 +331,23 @@ h2.section-heading {
 .accordion-body {
   font-size: 13px;
 }
+.pages-newsletter-wrapper h3 {
+  font-size: 23px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+input.pages-newsletter-input {
+  width: 80%;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 0px;
+}
+.pages-newsletter-submit-button {
+  padding: 10px 40px;
+  font-size: 14px;
+  border-radius: 0px;
+  margin-top: 10px;
+}
 
 
   /* Cookies CSS Start */
@@ -391,6 +434,24 @@ h2.section-heading {
 }
 .lg-btm a img {
   max-width: 220px;
+}
+.pages-newsletter-wrapper {
+  padding: 10px 0;
+}
+
+.pages-newsletter-wrapper h3 {
+  font-size: 17px;
+  padding: 0;
+}
+
+input.pages-newsletter-input {
+  width: 90%;
+  font-size: 14px;
+}
+
+.pages-newsletter-submit-button {
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
 
