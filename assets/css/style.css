@@ -572,7 +572,7 @@ input.pages-newsletter-input {
     overflow: hidden;
     opacity: 0;
     /* transition: height 0.5s ease, opacity 0.5s ease; */
-    transition: 0.3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     padding: 0 15px;
     background-color: transparent;
     backdrop-filter: blur(20px);
@@ -580,7 +580,7 @@ input.pages-newsletter-input {
 .accordion-content {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.4s ease-in-out; 
+    transition: all 0.5s ease-in-out; 
 }
 
 .accordion-item.active .accordion-content {
@@ -595,7 +595,7 @@ input.pages-newsletter-input {
 .icon {
     font-size: 24px;
     font-weight: 700;
-    transition: transform 0.3s ease;
+    transition:all 0.3s ease;
     min-width: 20px;
 }
 
