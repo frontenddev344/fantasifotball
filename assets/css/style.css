@@ -912,16 +912,34 @@ height: 490px;
     width: 50%;
     padding: 20px;
 }
+/* About Us Page CSS End */  
 
-
-
-
-
-
-
-
-
-/* About Us Page CSS End */
+/* Contact Us Page CSS Start */
+.contact-us-group p img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.contact-us-group{
+    margin-bottom: 35px;
+}
+.contact-us-group p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-us-group p a {
+margin-left: 10px;
+color: #fd5f03;
+font-size: 17px;
+transition: 0.4s all ease-in-out;
+}
+.contact-us-group p a:hover {
+    color: #00fadf;
+    transform: translateX(2px);
+    }
+    
 
 
 
