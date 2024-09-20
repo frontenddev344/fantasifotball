@@ -104,6 +104,13 @@
   }
 
   /* Pages CSS Start */
+  .banner-image {
+    height: 360px;
+  }
+  .pages-banner-text h1 {
+    font-size: 35px;
+  }
+
   .pages-cards-image {
     height: 330px;
   }
@@ -150,9 +157,11 @@
     padding: 8px;
     font-size: 14px;
   }
+
   #contact textarea {
     height: 70px;
   }
+
   /* Contact Us Page CSS Start */
 
 
@@ -302,6 +311,13 @@
   }
 
   /* Pages CSS Start */
+  .banner-image {
+    height: 320px;
+  }
+  .pages-banner-text h1 {
+    font-size: 29px;
+  }
+
   .pages-cards-image {
     width: 100%;
     height: 270px;
@@ -334,9 +350,11 @@
 
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
-  .form-image,.form-container {
+  .form-image,
+  .form-container {
     width: 100%;
-}
+  }
+
   .contact-us-group ul li a,
   .contact-us-group p a {
     font-size: 16px;
@@ -525,6 +543,13 @@
   }
 
   /* Pages CSS Start */
+  .banner-image {
+    height: 280px;
+  }
+  .pages-banner-text h1 {
+    font-size: 27px;
+  }
+
   .pages-cards-image {
     width: 100%;
     height: 230px;
@@ -731,6 +756,14 @@
   }
 
   /* Pages CSS Start */
+  .banner-image {
+    height: 250px;
+  }
+
+  .pages-banner-text h1 {
+    font-size: 25px;
+  }
+
   .pages-cards-image {
     width: 100%;
     height: 180px;
@@ -778,11 +811,13 @@
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
   #contact {
-    padding: 0; 
- }
- .form-container {
-  padding:30px 5px;
-}
+    padding: 0;
+  }
+
+  .form-container {
+    padding: 30px 5px;
+  }
+
   .contact-us-group h3 {
     font-size: 35px;
   }
@@ -812,6 +847,7 @@
     padding: 8px;
     font-size: 13px;
   }
+
   /* Contact Us Page CSS Start */
 
 

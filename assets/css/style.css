@@ -803,6 +803,17 @@ input.pages-newsletter-input {
 }
 
 /* Social Icons CSS End */
+
+
+
+/* Pages CSS Start */
+.pages-banner-image{
+    height: 480px;
+}
+.pages-banner-text h1{
+  font-size: 50px;
+}
+
 .pages-cards-wrapper {
     padding: 15px;
 }
@@ -820,10 +831,6 @@ input.pages-newsletter-input {
     overflow: hidden;
     transition: 0.4s all ease-in-out;
 }
-
-/* .pages-cards:nth-child(odd){
-    flex-direction: row-reverse;
-} */
 .pages-cards:hover {
     transform: translateY(-5px);
     box-shadow: #fd5f03 0px 3px 10px 3px, #fd5f03 0px 3px 10px 5px, #fd5f03 0px -2px 6px 0px inset;
@@ -1036,15 +1043,6 @@ input.pages-newsletter-input {
     width: 100%;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Raleway", sans-serif;
-}
-
 #contact {
     background-image: url("../images/form-bg.svg");
     background-position: center;
@@ -1082,13 +1080,15 @@ fieldset {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea,
-#contact select {
-    width: 100%;
+#contact select ,
+#contact button[type="submit"]{
+    width: 80%;
     border: 1px solid #ccc;
     background: #FFF;
     margin: 0 0 5px;
     padding: 10px;
-    font-size: 14px;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 #contact input[type="text"]:hover,
@@ -1118,21 +1118,19 @@ fieldset {
 
 #contact button[type="submit"] {
     cursor: pointer;
-    width: 35%;
     border: none;
-    background: #efcd45;
+    background: linear-gradient(93.12deg, #00fadf 5.88%, #86ffac 94.33%);
     color: #000;
     margin: 0 0 5px;
-    padding: 10px;
+    width:25%;
+    padding: 15px 30px;
     font-family: "Raleway", sans-serif;
     font-size: 17px;
+    transition: 0.4s all ease-in-out;
 }
 
 #contact button[type="submit"]:hover {
-    background: #efcd45;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
+    box-shadow: #86ffac 0px 7px 15px 0px, #00fadf 0px 0px 0px 1px;
 }
 
 #contact button[type="submit"]:active {
