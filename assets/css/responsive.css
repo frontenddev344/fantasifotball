@@ -156,6 +156,12 @@
   .terms-conditions-group p {
     font-size: 15px;
   }
+  .about-us-content{
+    font-size: 15px;
+  }
+  .about-us-image {
+    height: 310px;
+}
 
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
@@ -380,6 +386,15 @@
   .terms-conditions-group h3 {
     font-size: 25px;
   }
+  .about-us-image,  .about-us-content{
+    width: 100%;
+}
+.about-us-content {
+  padding: 10px;
+}
+.about-us-image {
+  height: 280px;
+}
 
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
@@ -641,6 +656,12 @@
   .terms-conditions-group p {
     font-size: 14px;
   }
+  .about-us-content{
+    font-size: 14px;
+  }
+  .about-us-image {
+    height: 240px;
+}
 
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
@@ -865,7 +886,9 @@
   .terms-conditions-group p a {
     font-size: 14px;
   }
-
+  .about-us-image {
+    height: 200px;
+}
   /* Other Pages CSS End */
   /* Contact Us Page CSS Start */
   #contact {
