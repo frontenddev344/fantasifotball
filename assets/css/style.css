@@ -1324,7 +1324,7 @@ fieldset {
 }
 
 .button {
-    width: calc(40% / 2 - 10px);
+    width: calc(50% / 2 - 10px);
     padding: 8px 0;
     border: 1px solid transparent;
     border-radius: 4px;

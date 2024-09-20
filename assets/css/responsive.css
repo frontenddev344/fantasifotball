@@ -38,6 +38,11 @@
     padding: 10px 30px;
     font-size: 15px;
   }
+  .button {
+    width: calc(60% / 2 - 10px);
+    font-size: 13px;
+    padding: 15px 5px;
+}
 }
 
 @media screen and (max-width:991px) {
@@ -211,7 +216,7 @@
   }
 
   .button {
-    width: calc(55% / 2 - 10px);
+    width: calc(85% / 2 - 10px);
     font-size: 14px;
   }
 
@@ -453,10 +458,11 @@
     font-size: 13px;
   }
 
-  .button {
+   .button {
+    width: calc(100% / 2 - 10px);
     font-size: 13px;
-    padding: 6px;
-  }
+    padding: 15px 5px;
+}
 
   /* Cookies CSS End */
 }
@@ -713,9 +719,10 @@
   }
 
   .button {
-    width: calc(70% / 2 - 10px);
+    width: calc(100% / 2 - 10px);
     font-size: 13px;
-  }
+    padding: 15px 5px;
+}
 
   /* Cookies CSS End */
 }
@@ -957,6 +964,9 @@
     width: calc(100% / 2 - 10px);
     font-size: 13px;
   }
+  .buttons .button:nth-child(2) {
+    padding: 14px;
+}
 
   /* Cookies CSS End */
 }
