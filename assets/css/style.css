@@ -171,13 +171,10 @@ colors
     padding-bottom: 5px;
   }
 
-.main-navbar ul li a:hover:after
+.main-navbar ul li a:hover:after,.main-navbar ul li a.active:after
  { 
     transform: scaleX(1); 
 }
-
-
-
 .how-play-btn {
     color: #000;
     display: inline-block;
@@ -719,12 +716,6 @@ background-color: #000;
     min-width: 20px;
     margin-right: 6px;
 }
-
-
-
-
-
-
 .copyright {
     padding: 15px 0;
     text-align: center;
@@ -893,6 +884,46 @@ height: 490px;
 }
 
 
+/* About Us Page CSS Start */
+.about-us-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 35px;box-shadow: #00fadf 0px 6px 10px 0px, #00fadf 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.about-us-group:nth-child(even)
+{
+    flex-direction: row-reverse;
+}
+.about-us-image {
+    min-height: 300px;
+    width: 50%;
+    overflow: hidden;
+}
+.about-us-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about-us-content {
+    width: 50%;
+    padding: 20px;
+}
+.about-us-content p {
+
+}
+
+
+
+
+
+
+
+
+/* About Us Page CSS End */
 
 
 
