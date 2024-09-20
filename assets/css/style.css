@@ -585,7 +585,7 @@ input.pages-newsletter-input {
 .accordion-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: all 0.4s ease-in-out; 
 }
 
 .accordion-item.active .accordion-content {
@@ -597,7 +597,6 @@ input.pages-newsletter-input {
     color: #fff;
 }
 
-
 .icon {
     font-size: 24px;
     font-weight: 700;
@@ -605,16 +604,10 @@ input.pages-newsletter-input {
     min-width: 20px;
 }
 
-.accordion-header.active .icon {
+/* .accordion-header.active .icon {
     transform: rotate(180deg);
-}
-
-.accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.4s ease-in-out; /* Smooth transition */
-}
-
+} */
+ 
 /* Home Page Accordion CSS Start */
 
 /* Disclaimer Section CSS Start */
