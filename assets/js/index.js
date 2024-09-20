@@ -29,37 +29,50 @@ AOS.init();
 // AOS JS Start
 
 // Accordion JS Start
+
 document.querySelectorAll('.accordion-header').forEach(button => {
   button.addEventListener('click', () => {
-    const content = button.nextElementSibling;
-    const icon = button.querySelector('.icon');
+    const accordionItem = button.parentElement;
+    const accordionContent = accordionItem.querySelector('.accordion-content');
+    const icon = button.querySelector('.icon'); // Get the icon within the button
 
-    button.classList.toggle('active');
+    // Toggle active class on the clicked item
+    const isActive = accordionItem.classList.toggle('active');
 
-    if (content.style.height === '0px' || !content.style.height) {
-      content.style.height = content.scrollHeight + 'px';
-      content.style.opacity = '1';
-      icon.textContent = '−';
+    if (isActive) {
+      // Open the clicked accordion item
+      accordionContent.style.height = accordionContent.scrollHeight + 'px'; // Set height dynamically
+      accordionContent.style.opacity = '1'; // Make content visible
+      icon.textContent = '−'; // Change icon to minus when open
 
-
-      content.addEventListener('transitionend', function setHeightAuto() {
-        content.style.height = 'auto';
-        content.removeEventListener('transitionend', setHeightAuto);
+      // Once the transition ends, set the height to auto for better responsiveness
+      accordionContent.addEventListener('transitionend', function setHeightAuto() {
+        accordionContent.style.height = 'auto';
+        accordionContent.removeEventListener('transitionend', setHeightAuto);
       });
     } else {
-
-      content.style.height = content.scrollHeight + 'px';
-
-      content.offsetHeight;
-
-      content.style.height = '0';
-      content.style.opacity = '0';
-      icon.textContent = '+';
+      // Close the current accordion item
+      accordionContent.style.height = accordionContent.scrollHeight + 'px'; // Set current height before collapsing
+      accordionContent.offsetHeight; // Trigger a reflow to ensure proper animation
+      accordionContent.style.height = '0'; // Collapse content
+      accordionContent.style.opacity = '0'; // Make content invisible
+      icon.textContent = '+'; // Change icon to plus when closed
     }
+
+    // Optionally close other accordion items (if you want only one item to be open at a time)
+    document.querySelectorAll('.accordion-item').forEach(item => {
+      if (item !== accordionItem && item.classList.contains('active')) {
+        const content = item.querySelector('.accordion-content');
+        const otherIcon = item.querySelector('.icon');
+
+        item.classList.remove('active');
+        content.style.height = '0'; // Collapse other items
+        content.style.opacity = '0';
+        otherIcon.textContent = '+'; // Reset icon for closed items
+      }
+    });
   });
 });
-
-
 // Accordion JS End
 
 //Cookies JS Start
@@ -88,25 +101,6 @@ window.addEventListener('load', executeCodes);
 // //Cookies JS End
 
 
-document.querySelectorAll('.accordion-header').forEach(button => {
-    button.addEventListener('click', () => {
-        const accordionItem = button.parentElement;
-        const accordionContent = accordionItem.querySelector('.accordion-content');
 
-        if (accordionItem.classList.contains('active')) {
-            // Close the current accordion item
-            accordionItem.classList.remove('active');
-            accordionContent.style.maxHeight = null;
-        } else {
-            // Close all other accordion items
-            document.querySelectorAll('.accordion-item').forEach(item => {
-                item.classList.remove('active');
-                item.querySelector('.accordion-content').style.maxHeight = null;
-            });
 
-            // Open the clicked accordion item
-            accordionItem.classList.add('active');
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-        }
-    });
-});
+
