@@ -261,7 +261,6 @@ h2.section-heading {
     width: 100%;
     object-position: 0% 0%;
 }
-
 .banner-text {
     position: absolute;
     top: 50%;
@@ -807,6 +806,9 @@ input.pages-newsletter-input {
 
 
 /* Pages CSS Start */
+.how-to-play .banner-image img {
+    object-position:center;
+}
 .pages-banner-image{
     height: 480px;
 }
