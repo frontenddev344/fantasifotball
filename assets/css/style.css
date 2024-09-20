@@ -939,10 +939,14 @@ input.pages-newsletter-input {
     box-shadow: #00fadf 0px 6px 10px 0px, #00fadf 0px 0px 0px 1px;
     border-radius: 10px;
     padding: 20px;
+    
 }
 
 .about-us-group:nth-child(even) {
     flex-direction: row-reverse;
+}
+.about-us-group:hover  .about-us-image img{
+    transform: scale(1.08);
 }
 
 .about-us-image {
@@ -955,6 +959,7 @@ input.pages-newsletter-input {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition:0.3s all ease-in-out
 }
 
 .about-us-content {
