@@ -701,6 +701,9 @@
   .terms-conditions-group h4 {
     font-size: 17px;
   }
+  .privacy-policy-group p a, .terms-conditions-group p a {
+    font-size: 14px;
+}
   /* Other Pages CSS End */
 
 
