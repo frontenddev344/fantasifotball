@@ -170,7 +170,7 @@
   }
 
   #contact textarea {
-    height: 70px;
+    height: 90px;
   }
 
   .contact-us-group a img {
@@ -182,15 +182,18 @@
     padding: 9px 25px;
     font-size: 15px;
   }
-  #contact button[type="submit"] {
-    width: 40%;
-    padding: 13px 20px;
-}
+
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select {
   padding: 10px;
   font-size: 15px;
 }
-
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
+  width: 100%;
+}
+#contact button[type="submit"] {
+  width: 40%;
+  padding: 13px 20px;
+}
   /* Contact Us Page CSS Start */
 
 
@@ -397,14 +400,18 @@
   #contact input[type="url"],
   #contact textarea,
   #contact select {
-    padding: 8px;
+    padding: 12px;
     font-size: 14px;
   }
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
+    width: 100%;
+}
 
   #contact button[type="submit"] {
-    width: 25%;
-    padding: 9px;
+    width: 30%;
+    padding: 13px;
     font-size: 15px;
+    font-weight: 600;
   }
 
   .contact-us-group a img {
@@ -416,9 +423,7 @@
     padding: 9px 25px;
     font-size: 14px;
   }
-  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
-    width: 100%;
-}
+
 
   /* Contact Us Page CSS Start */
 
@@ -660,7 +665,7 @@
 
   #contact button[type="submit"] {
     width: 35%;
-    padding: 9px;
+    padding: 13px;
     font-size: 14px;
     font-weight: 600;
   }
@@ -896,7 +901,7 @@
   }
 
   #contact button[type="submit"] {
-    width: 35%;
+    width: 40%;
     padding: 12px;
     font-size: 14px;
     font-weight: 600;
