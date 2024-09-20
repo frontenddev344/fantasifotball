@@ -723,7 +723,9 @@
     font-size: 13px;
     padding: 15px 5px;
 }
-
+.buttons .button:nth-child(2) {
+  padding: 22px;
+}
   /* Cookies CSS End */
 }
 
