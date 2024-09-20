@@ -941,7 +941,7 @@ height: 490px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #330662;
+
 }
 
 
@@ -949,9 +949,8 @@ height: 490px;
 .terms-conditions-group {
     margin-bottom: 35px;
     padding: 20px;
-    box-shadow: 0px 0px 7px 4px #fa009f;
+    box-shadow: 0px 0px 7px 4px #00fadf;
     border-radius: 10px;
-    background-color: #330662;
 }
 
 .privacy-policy-group:last-child {
@@ -962,7 +961,7 @@ height: 490px;
 .terms-conditions-group h3 {
     font-size: 27px;
     margin-bottom: 10px;
-    color: #fa009f;
+    color: #00fadf;
 }
 
 .privacy-policy-group h4,
@@ -990,19 +989,19 @@ height: 490px;
 
 .privacy-policy-group h3 a,
 .terms-conditions-group h3 a {
-    color: #fa009f;
+    color: #fd5f03;
     transition: 0.3s all ease-in-out;
 }
 
 .privacy-policy-group h3 a:hover,
 .terms-conditions-group h3 a:hover {
-    color: red;
+    color: #00fadf;
     transform: translateX(2px);
 }
 
 .privacy-policy-group p a,
 .terms-conditions-group p a {
-    color: #cf2d5e;
+    color: #fd5f03;
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s all ease-in-out;
@@ -1010,7 +1009,7 @@ height: 490px;
 
 .privacy-policy-group p a:hover,
 .terms-conditions-group p a:hover {
-    color: red;
+    color: #00fadf;
     transform: translateX(2px);
 }
 
