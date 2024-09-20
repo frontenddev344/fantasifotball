@@ -946,9 +946,9 @@ input.pages-newsletter-input {
 }
 
 .about-us-image {
-    min-height: 300px;
     width: 50%;
     overflow: hidden;
+    height: 350px;
 }
 
 .about-us-image img {
