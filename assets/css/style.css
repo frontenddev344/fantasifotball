@@ -809,6 +809,10 @@ input.pages-newsletter-input {
 .how-to-play .banner-image img {
     object-position:center;
 }
+.about-us .banner-image img {
+    object-position:center;
+}
+
 .pages-banner-image{
     height: 480px;
 }
