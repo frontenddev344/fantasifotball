@@ -203,12 +203,12 @@
 
   /* Other Pages CSS Start */
   .privacy-policy-group h3,
-  .terms-conditions-group h3 {
+  .terms-conditions-group h3,.personal-information-group h3 ,.return-refund-group h3{
     font-size: 26px;
   }
 
   .privacy-policy-group p,
-  .terms-conditions-group p {
+  .terms-conditions-group p,.personal-information-group p,.return-refund-group p {
     font-size: 15px;
   }
   .about-us-content{
@@ -391,7 +391,7 @@
   /* Pages CSS End  */
   /* Other Pages CSS Start */
   .privacy-policy-group h3,
-  .terms-conditions-group h3 {
+  .terms-conditions-group h3,.personal-information-group h3,.return-refund-group h3 {
     font-size: 25px;
   }
   .about-us-image,  .about-us-content{
@@ -658,12 +658,12 @@
   /* Pages CSS End  */
   /* Other Pages CSS Start */
   .privacy-policy-group h3,
-  .terms-conditions-group h3 {
+  .terms-conditions-group h3,.personal-information-group h3,.return-refund-group h3 {
     font-size: 23px;
   }
 
   .privacy-policy-group p,
-  .terms-conditions-group p {
+  .terms-conditions-group p ,.personal-information-group p,.return-refund-group p{
     font-size: 14px;
   }
   .about-us-content{
@@ -886,17 +886,18 @@
   /* Pages CSS End  */
   /* Other Pages CSS Start */
   .privacy-policy-group h3,
-  .terms-conditions-group h3 {
+  .terms-conditions-group h3,
+  .personal-information-group h3 ,.return-refund-group h3{
     font-size: 20px;
   }
 
   .privacy-policy-group h4,
-  .terms-conditions-group h4 {
+  .terms-conditions-group h4,.personal-information-group h4 ,.return-refund-group h4{
     font-size: 17px;
   }
 
   .privacy-policy-group p a,
-  .terms-conditions-group p a {
+  .terms-conditions-group p a ,.personal-information-group p a,.return-refund-group p a{
     font-size: 14px;
   }
   .about-us-image {
