@@ -171,7 +171,7 @@ img {
     transform: scaleX(1);
 }
 
-.how-play-btn {
+.contact-us-btn {
     color: #000;
     display: inline-block;
     text-align: center;
@@ -216,12 +216,12 @@ img {
     display: none !important;
 }
 
-.how-play-btn {
+.contact-us-btn {
     background: linear-gradient(93.12deg, #00fadf 5.88%, #86ffac 94.33%);
     padding: 15px 30px;
 }
 
-.how-play-btn:hover {
+.contact-us-btn:hover {
     box-shadow: #86ffac 0px 7px 15px 0px, #00fadf 0px 0px 0px 1px;
 }
 
